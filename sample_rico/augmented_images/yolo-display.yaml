@@ -1,0 +1,9 @@
+train: /home/ella/Documents/CS563/term-project/CS563-TermProject/sample_rico/augmented_images/images/train
+val: /home/ella/Documents/CS563/term-project/CS563-TermProject/sample_rico/augmented_images/images/val
+
+
+nc: 2
+
+names:
+  0: "component_occlusion"
+  1: "text_overlap"
