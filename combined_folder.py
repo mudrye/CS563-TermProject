@@ -3,7 +3,6 @@ import shutil
 
 def copy_files_to_combined_folder(source_parent_folder, combined_folder):
     """Copy all images and JSON files from source folders to a combined folder."""
-    # Ensure the combined folder exists
     if not os.path.exists(combined_folder):
         os.makedirs(combined_folder)
 
@@ -26,8 +25,8 @@ def copy_files_to_combined_folder(source_parent_folder, combined_folder):
         else:
             print(f"Warning: Source folder {source_folder} does not exist.")
 
-# Example usage
-source_parent_folder = 'sample_rico/rico_sampled_dataset'  # Replace with the path to the parent directory containing the folders
-combined_folder = 'sample_rico/combined_folder'  # Folder where you want to save the combined files
+
+source_parent_folder = 'sample_rico/rico_sampled_dataset'
+combined_folder = 'sample_rico/combined_folder'
 
 copy_files_to_combined_folder(source_parent_folder, combined_folder)
