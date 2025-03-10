@@ -1,3 +1,5 @@
+# Automatically Detecting and Localizing Display Issues in User Interfaces
+## Ella Mudry, Swathi Gangi, Tabitha Rowland
 1. run `data_generation/create_small_dataset.py` to get the cluster sample
 2. run `data_generation/combined_folder` to but all the images in the same folder
 3. run `data_generation/auto_data_gen.py` to get the augmentations
