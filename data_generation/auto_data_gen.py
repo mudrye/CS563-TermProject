@@ -1,13 +1,12 @@
+'''
+Algorithm from the NighHawk paper https://arxiv.org/abs/2205.13945 used to create 
+the augmented data for text overlap and opponent occlusion. Chatgpt was also used.
+'''
 import json
 import random
 import cv2
 import numpy as np
 import os
-
-'''
-Algorithm from the NighHawk paper https://arxiv.org/abs/2205.13945 used to create 
-the augmented data for text overlap and opponent occlusion. Chatgpt was also used.
-'''
 
 def load_rico_data(image_path, json_path):
     image = cv2.imread(image_path)

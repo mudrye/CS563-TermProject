@@ -1,10 +1,9 @@
-from ultralytics import YOLO
-import cv2
-import os
-
 '''
 Create examples for paper of YOLOv8 method.
 '''
+from ultralytics import YOLO
+import cv2
+import os
 
 # Load YOLOv8 nano model
 model = YOLO("sample_rico/yolov8_custom_model_4.pt")

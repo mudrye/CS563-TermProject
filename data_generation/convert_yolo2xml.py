@@ -1,11 +1,10 @@
+'''
+Convert the yolo txt files to xml. Used chatgpt to help.
+'''
 import os
 import glob
 import cv2
 import xml.etree.ElementTree as ET
-
-'''
-Convert the yolo txt files to xml. Used chatgpt to help.
-'''
 
 def yolo_to_voc(yolo_bbox, img_width, img_height):
     class_id, x_center, y_center, width, height = map(float, yolo_bbox)

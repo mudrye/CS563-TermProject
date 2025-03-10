@@ -1,3 +1,7 @@
+'''
+Use Rico dataset to create a smaller subset with cluster sampling. 
+used chatgpt for help in creation
+'''
 import json
 import random
 import csv
@@ -5,11 +9,6 @@ import os
 import tarfile
 import shutil
 from collections import defaultdict
-
-'''
-Use Rico dataset to create a smaller subset with cluster sampling. 
-used chatgpt for help in creation
-'''
 
 def load_rico_metadata(csv_path):
     """Load RICO dataset metadata from CSV."""

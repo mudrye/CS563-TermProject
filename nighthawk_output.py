@@ -1,3 +1,7 @@
+'''
+Create examples to show for nighthawk results.
+Chatgpt used to help create script.
+'''
 import torch
 import torchvision.transforms as T
 import torchvision
@@ -5,11 +9,6 @@ from torchvision.models.detection import fasterrcnn_resnet50_fpn
 from PIL import Image, ImageDraw, ImageFont
 import os
 import argparse
-
-'''
-Create examples to show for nighthawk results.
-Chatgpt used to help create script.
-'''
 
 def load_model(model_path):
     checkpoint = torch.load(model_path, map_location=torch.device('cpu'))
